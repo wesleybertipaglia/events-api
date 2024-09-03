@@ -21,8 +21,8 @@ This project is the back-end part of the [Events APP](https://github.com/wesleyb
 
 1. Generating `app.key` and `app.pub`:
 ```bash
-openssl genrsa -out app.key 2048
-openssl rsa -in app.key -pubout -out app.pub
+openssl genrsa -out src/main/resources/app.key 2048 
+openssl rsa -in src/main/resources/app.key -pubout -out src/main/resources/app.pub
 ```
 
 2. Running with Maven
